@@ -1,0 +1,119 @@
+Started by user [8mha:////4GE1JCdIC7W/AZPxNFasVOEaUUKFgk2kMrNK4xMymcz7AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/dLi1CL95Iz8ZKCCRABDGyfQwwAAAA==[0mchocotea
+Running as SYSTEM
+Building in workspace C:\ProgramData\Jenkins\.jenkins\workspace\git_auto
+The recommended git tool is: NONE
+using credential hajuu96123
+ > git.exe rev-parse --resolve-git-dir C:\ProgramData\Jenkins\.jenkins\workspace\git_auto\.git # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/ChoiJuYoung/jenkins_test # timeout=10
+Fetching upstream changes from https://github.com/ChoiJuYoung/jenkins_test
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.26.2.windows.1'
+using GIT_ASKPASS to set credentials 
+ > git.exe fetch --tags --force --progress -- https://github.com/ChoiJuYoung/jenkins_test +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+Checking out Revision 568add2e8cd603b015b1b54adfb54f80f6f7fe7c (refs/remotes/origin/main)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 568add2e8cd603b015b1b54adfb54f80f6f7fe7c # timeout=10
+Commit message: "readme"
+ > git.exe rev-list --no-walk 568add2e8cd603b015b1b54adfb54f80f6f7fe7c # timeout=10
+[git_auto] $ cmd /c call C:\WINDOWS\TEMP\jenkins11039657458633132721.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\git_auto>git add . -A 
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/config.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/credentials.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/hudson.model.UpdateCenter.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/hudson.plugins.emailext.ExtendedEmailPublisher.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/hudson.plugins.git.GitTool.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/installedPlugins.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/jenkins.model.JenkinsLocationConfiguration.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/jenkins.telemetry.Correlator.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/jobs/for_test/builds/1/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/jobs/for_test/builds/2/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/jobs/for_test/builds/3/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/jobs/for_test/builds/4/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/jobs/for_test/builds/5/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/jobs/for_test/builds/permalinks.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/jobs/for_test/config.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/jobs/git_auto/builds/1/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/jobs/git_auto/builds/1/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/jobs/git_auto/builds/2/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/jobs/git_auto/builds/2/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/jobs/git_auto/builds/3/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/jobs/git_auto/builds/3/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/jobs/git_auto/builds/4/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/jobs/git_auto/builds/4/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/jobs/git_auto/builds/5/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/jobs/git_auto/builds/5/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/jobs/git_auto/builds/6/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/jobs/git_auto/builds/6/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/jobs/git_auto/builds/7/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/jobs/git_auto/builds/8/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/jobs/git_auto/builds/permalinks.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/jobs/git_auto/config.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/nodeMonitors.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/queue.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/thinBackup.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/users/chocotea_5623990415450301931/config.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-09_17-32/users/users.xml.
+The file will have its original line endings in your working directory
+
+C:\ProgramData\Jenkins\.jenkins\workspace\git_auto>git commit -m "$BUILD_ID" 
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'SYSTEM@DESKTOP-VBEBLPO.(none)')
+
+C:\ProgramData\Jenkins\.jenkins\workspace\git_auto>exit 128 
+Build step 'Execute Windows batch command' marked build as failure
+The recommended git tool is: NONE
+using credential hajuu96123
+Pushing HEAD to branch main at repo origin
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.26.2.windows.1'
+using GIT_ASKPASS to set credentials 
+ > git.exe push https://github.com/ChoiJuYoung/jenkins_test HEAD:main # timeout=10
+Finished: FAILURE
