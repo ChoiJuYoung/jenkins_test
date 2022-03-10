@@ -1,0 +1,76 @@
+Started by user [8mha:////4MPO7nZxTnIZGF51eLWkd+RJHSsC0fPElxrnUCiMeq5/AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace C:\ProgramData\Jenkins\.jenkins\workspace\git_auto
+The recommended git tool is: NONE
+using credential ChoiJuYoung
+ > git.exe rev-parse --resolve-git-dir C:\ProgramData\Jenkins\.jenkins\workspace\git_auto\.git # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/ChoiJuYoung/jenkins_test # timeout=10
+Fetching upstream changes from https://github.com/ChoiJuYoung/jenkins_test
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.26.2.windows.1'
+using GIT_ASKPASS to set credentials 
+ > git.exe fetch --tags --force --progress -- https://github.com/ChoiJuYoung/jenkins_test +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+Checking out Revision dae083da450ed33b1b27e32318d17aefcea329f1 (refs/remotes/origin/main)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f dae083da450ed33b1b27e32318d17aefcea329f1 # timeout=10
+Commit message: "$BUILD_ID"
+ > git.exe rev-list --no-walk dae083da450ed33b1b27e32318d17aefcea329f1 # timeout=10
+[git_auto] $ cmd /c call C:\WINDOWS\TEMP\jenkins12858018054381457200.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\git_auto>git add -A 
+warning: LF will be replaced by CRLF in FULL-2022-03-10_22-21/config.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_22-21/credentials.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_22-21/hudson.model.UpdateCenter.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_22-21/hudson.plugins.git.GitTool.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_22-21/installedPlugins.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_22-21/jenkins.model.JenkinsLocationConfiguration.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_22-21/jenkins.telemetry.Correlator.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_22-21/jobs/git_auto/builds/1/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_22-21/jobs/git_auto/builds/1/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_22-21/jobs/git_auto/builds/permalinks.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_22-21/jobs/git_auto/config.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_22-21/nodeMonitors.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_22-21/thinBackup.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_22-21/users/admin_3041683407531343188/config.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_22-21/users/users.xml.
+The file will have its original line endings in your working directory
+
+C:\ProgramData\Jenkins\.jenkins\workspace\git_auto>git commit -m "BACKUP" 
+[detached HEAD 353597e] BACKUP
+ 17 files changed, 680 insertions(+)
+ create mode 100644 FULL-2022-03-10_22-21/config.xml
+ create mode 100644 FULL-2022-03-10_22-21/credentials.xml
+ create mode 100644 FULL-2022-03-10_22-21/hudson.model.UpdateCenter.xml
+ create mode 100644 FULL-2022-03-10_22-21/hudson.plugins.git.GitTool.xml
+ create mode 100644 FULL-2022-03-10_22-21/installedPlugins.xml
+ create mode 100644 FULL-2022-03-10_22-21/jenkins.model.JenkinsLocationConfiguration.xml
+ create mode 100644 FULL-2022-03-10_22-21/jenkins.telemetry.Correlator.xml
+ create mode 100644 FULL-2022-03-10_22-21/jobs/git_auto/builds/1/build.xml
+ create mode 100644 FULL-2022-03-10_22-21/jobs/git_auto/builds/1/changelog.xml
+ create mode 100644 FULL-2022-03-10_22-21/jobs/git_auto/builds/1/log
+ create mode 100644 FULL-2022-03-10_22-21/jobs/git_auto/builds/legacyIds
+ create mode 100644 FULL-2022-03-10_22-21/jobs/git_auto/builds/permalinks
+ create mode 100644 FULL-2022-03-10_22-21/jobs/git_auto/config.xml
+ create mode 100644 FULL-2022-03-10_22-21/nodeMonitors.xml
+ create mode 100644 FULL-2022-03-10_22-21/thinBackup.xml
+ create mode 100644 FULL-2022-03-10_22-21/users/admin_3041683407531343188/config.xml
+ create mode 100644 FULL-2022-03-10_22-21/users/users.xml
+
+C:\ProgramData\Jenkins\.jenkins\workspace\git_auto>exit 0 
+Finished: SUCCESS

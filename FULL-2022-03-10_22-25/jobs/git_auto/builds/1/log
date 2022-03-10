@@ -1,0 +1,33 @@
+Started by user [8mha:////4MPO7nZxTnIZGF51eLWkd+RJHSsC0fPElxrnUCiMeq5/AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace C:\ProgramData\Jenkins\.jenkins\workspace\git_auto
+The recommended git tool is: NONE
+using credential ChoiJuYoung
+Cloning the remote Git repository
+Cloning repository https://github.com/ChoiJuYoung/jenkins_test
+ > git.exe init C:\ProgramData\Jenkins\.jenkins\workspace\git_auto # timeout=10
+Fetching upstream changes from https://github.com/ChoiJuYoung/jenkins_test
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.26.2.windows.1'
+using GIT_ASKPASS to set credentials 
+ > git.exe fetch --tags --force --progress -- https://github.com/ChoiJuYoung/jenkins_test +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/ChoiJuYoung/jenkins_test # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git.exe rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+Checking out Revision dae083da450ed33b1b27e32318d17aefcea329f1 (refs/remotes/origin/main)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f dae083da450ed33b1b27e32318d17aefcea329f1 # timeout=10
+Commit message: "$BUILD_ID"
+First time build. Skipping changelog.
+[git_auto] $ cmd /c call C:\WINDOWS\TEMP\jenkins14891446162620734653.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\git_auto>git add -A 
+
+C:\ProgramData\Jenkins\.jenkins\workspace\git_auto>git commit -m "BACKUP" 
+HEAD detached at dae083d
+nothing to commit, working tree clean
+
+C:\ProgramData\Jenkins\.jenkins\workspace\git_auto>exit 1 
+Build step 'Execute Windows batch command' marked build as failure
+Finished: FAILURE
