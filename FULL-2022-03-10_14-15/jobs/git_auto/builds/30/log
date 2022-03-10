@@ -1,0 +1,44 @@
+Started by user [8mha:////4GE1JCdIC7W/AZPxNFasVOEaUUKFgk2kMrNK4xMymcz7AAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/dLi1CL95Iz8ZKCCRABDGyfQwwAAAA==[0mchocotea
+Running as SYSTEM
+Building in workspace C:\ProgramData\Jenkins\.jenkins\workspace\git_auto
+The recommended git tool is: NONE
+using credential hajuu96123
+Cloning the remote Git repository
+Cloning repository https://github.com/ChoiJuYoung/jenkins_test
+ > git.exe init C:\ProgramData\Jenkins\.jenkins\workspace\git_auto # timeout=10
+Fetching upstream changes from https://github.com/ChoiJuYoung/jenkins_test
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.26.2.windows.1'
+using GIT_ASKPASS to set credentials 
+ > git.exe fetch --tags --force --progress -- https://github.com/ChoiJuYoung/jenkins_test +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/ChoiJuYoung/jenkins_test # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git.exe rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+Checking out Revision 1e1fd759642d00f943fcb5c5d6bb310443c65935 (refs/remotes/origin/main)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 1e1fd759642d00f943fcb5c5d6bb310443c65935 # timeout=10
+Commit message: "$BUILD_ID"
+ > git.exe rev-list --no-walk cb16a84a48d1aa8ca64cd7efc79b25d4f68b60e4 # timeout=10
+[git_auto] $ cmd /c call C:\WINDOWS\TEMP\jenkins11601951158738016485.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\git_auto>git config --global user.email "hajuu96123@naver.com" 
+
+C:\ProgramData\Jenkins\.jenkins\workspace\git_auto>git config --global user.name "ChoiJuYoung" 
+
+C:\ProgramData\Jenkins\.jenkins\workspace\git_auto>git add . -A 
+
+C:\ProgramData\Jenkins\.jenkins\workspace\git_auto>git commit -m $BUILD_ID 
+HEAD detached at 1e1fd75
+nothing to commit, working tree clean
+
+C:\ProgramData\Jenkins\.jenkins\workspace\git_auto>exit 1 
+Build step 'Execute Windows batch command' marked build as failure
+The recommended git tool is: NONE
+using credential hajuu96123
+Pushing HEAD to branch main at repo origin
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.26.2.windows.1'
+using GIT_ASKPASS to set credentials 
+ > git.exe push https://github.com/ChoiJuYoung/jenkins_test HEAD:main # timeout=10
+Finished: FAILURE
