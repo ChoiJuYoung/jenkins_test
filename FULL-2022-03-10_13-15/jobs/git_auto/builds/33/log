@@ -1,0 +1,436 @@
+Started by timer
+Running as SYSTEM
+Building in workspace C:\ProgramData\Jenkins\.jenkins\workspace\git_auto
+The recommended git tool is: NONE
+using credential hajuu96123
+ > git.exe rev-parse --resolve-git-dir C:\ProgramData\Jenkins\.jenkins\workspace\git_auto\.git # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/ChoiJuYoung/jenkins_test # timeout=10
+Fetching upstream changes from https://github.com/ChoiJuYoung/jenkins_test
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.26.2.windows.1'
+using GIT_ASKPASS to set credentials 
+ > git.exe fetch --tags --force --progress -- https://github.com/ChoiJuYoung/jenkins_test +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/main^{commit}" # timeout=10
+Checking out Revision 4e55bc29bcfb05dbd9b51ff29af12630d29bb575 (refs/remotes/origin/main)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 4e55bc29bcfb05dbd9b51ff29af12630d29bb575 # timeout=10
+Commit message: "$BUILD_ID"
+ > git.exe rev-list --no-walk 1e1fd759642d00f943fcb5c5d6bb310443c65935 # timeout=10
+[git_auto] $ cmd /c call C:\WINDOWS\TEMP\jenkins7443249388881140462.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\git_auto>git config --global user.email "hajuu96123@naver.com" 
+
+C:\ProgramData\Jenkins\.jenkins\workspace\git_auto>git config --global user.name "ChoiJuYoung" 
+
+C:\ProgramData\Jenkins\.jenkins\workspace\git_auto>git add . -A 
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/config.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/credentials.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/hudson.model.UpdateCenter.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/hudson.plugins.emailext.ExtendedEmailPublisher.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/hudson.plugins.git.GitTool.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/installedPlugins.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jenkins.model.JenkinsLocationConfiguration.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jenkins.telemetry.Correlator.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/for_test/builds/1/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/for_test/builds/10/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/for_test/builds/11/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/for_test/builds/12/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/for_test/builds/13/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/for_test/builds/14/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/for_test/builds/15/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/for_test/builds/16/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/for_test/builds/17/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/for_test/builds/18/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/for_test/builds/19/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/for_test/builds/2/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/for_test/builds/20/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/for_test/builds/21/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/for_test/builds/3/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/for_test/builds/4/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/for_test/builds/5/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/for_test/builds/6/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/for_test/builds/7/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/for_test/builds/8/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/for_test/builds/9/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/for_test/builds/permalinks.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/for_test/config.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/1/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/1/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/10/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/11/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/11/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/12/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/12/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/13/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/13/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/14/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/14/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/15/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/15/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/16/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/16/changelog.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/16/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/17/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/17/changelog.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/17/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/18/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/18/changelog.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/18/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/19/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/19/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/2/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/2/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/20/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/20/changelog.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/20/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/21/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/21/changelog.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/21/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/22/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/22/changelog.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/22/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/23/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/23/changelog.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/23/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/24/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/24/changelog.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/24/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/25/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/25/changelog.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/25/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/26/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/26/changelog.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/26/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/27/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/27/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/28/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/28/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/29/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/29/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/3/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/3/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/30/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/30/changelog.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/30/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/31/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/31/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/32/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/32/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/4/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/4/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/5/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/5/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/6/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/6/log.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/7/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/8/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/9/build.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/builds/permalinks.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/jobs/git_auto/config.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/nodeMonitors.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/queue.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/thinBackup.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/users/chocotea_5623990415450301931/config.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/users/hajuu96123_12618404579980106665/config.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/users/hajuu96123_2577695143845427596/config.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in FULL-2022-03-10_12-15/users/users.xml.
+The file will have its original line endings in your working directory
+
+C:\ProgramData\Jenkins\.jenkins\workspace\git_auto>git commit -m $BUILD_ID 
+[detached HEAD 3675f20] $BUILD_ID
+ 174 files changed, 8886 insertions(+)
+ create mode 100644 FULL-2022-03-10_12-15/config.xml
+ create mode 100644 FULL-2022-03-10_12-15/credentials.xml
+ create mode 100644 FULL-2022-03-10_12-15/hudson.model.UpdateCenter.xml
+ create mode 100644 FULL-2022-03-10_12-15/hudson.plugins.emailext.ExtendedEmailPublisher.xml
+ create mode 100644 FULL-2022-03-10_12-15/hudson.plugins.git.GitTool.xml
+ create mode 100644 FULL-2022-03-10_12-15/installedPlugins.xml
+ create mode 100644 FULL-2022-03-10_12-15/jenkins.model.JenkinsLocationConfiguration.xml
+ create mode 100644 FULL-2022-03-10_12-15/jenkins.telemetry.Correlator.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/1/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/1/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/1/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/10/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/10/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/10/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/11/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/11/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/11/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/12/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/12/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/12/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/13/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/13/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/13/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/14/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/14/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/14/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/15/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/15/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/15/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/16/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/16/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/16/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/17/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/17/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/17/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/18/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/18/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/18/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/19/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/19/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/19/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/2/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/2/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/2/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/20/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/20/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/20/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/21/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/21/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/21/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/3/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/3/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/3/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/4/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/4/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/4/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/5/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/5/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/5/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/6/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/6/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/6/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/7/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/7/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/7/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/8/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/8/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/8/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/9/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/9/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/9/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/legacyIds
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/builds/permalinks
+ create mode 100644 FULL-2022-03-10_12-15/jobs/for_test/config.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/1/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/1/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/1/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/10/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/10/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/10/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/11/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/11/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/11/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/12/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/12/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/12/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/13/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/13/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/13/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/14/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/14/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/14/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/15/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/15/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/15/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/16/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/16/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/16/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/17/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/17/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/17/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/18/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/18/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/18/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/19/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/19/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/19/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/2/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/2/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/2/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/20/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/20/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/20/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/21/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/21/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/21/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/22/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/22/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/22/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/23/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/23/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/23/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/24/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/24/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/24/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/25/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/25/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/25/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/26/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/26/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/26/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/27/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/27/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/27/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/28/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/28/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/28/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/29/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/29/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/29/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/3/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/3/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/3/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/30/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/30/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/30/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/31/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/31/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/31/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/32/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/32/changelog.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/32/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/4/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/4/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/5/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/5/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/6/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/6/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/7/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/7/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/8/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/8/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/9/build.xml
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/9/log
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/legacyIds
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/builds/permalinks
+ create mode 100644 FULL-2022-03-10_12-15/jobs/git_auto/config.xml
+ create mode 100644 FULL-2022-03-10_12-15/nodeMonitors.xml
+ create mode 100644 FULL-2022-03-10_12-15/queue.xml
+ create mode 100644 FULL-2022-03-10_12-15/thinBackup.xml
+ create mode 100644 FULL-2022-03-10_12-15/users/chocotea_5623990415450301931/config.xml
+ create mode 100644 FULL-2022-03-10_12-15/users/hajuu96123_12618404579980106665/config.xml
+ create mode 100644 FULL-2022-03-10_12-15/users/hajuu96123_2577695143845427596/config.xml
+ create mode 100644 FULL-2022-03-10_12-15/users/users.xml
+
+C:\ProgramData\Jenkins\.jenkins\workspace\git_auto>exit 0 
+The recommended git tool is: NONE
+using credential hajuu96123
+Pushing HEAD to branch main at repo origin
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.26.2.windows.1'
+using GIT_ASKPASS to set credentials 
+ > git.exe push https://github.com/ChoiJuYoung/jenkins_test HEAD:main # timeout=10
+Finished: SUCCESS
